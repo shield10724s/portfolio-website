@@ -1,0 +1,21 @@
+h1 {
+    text-align: center !important;
+    color: rgb(0, 0, 255);
+}
+* {
+     border: solid 2px brown;
+}
+.header {
+    background-color: burlywood;
+    display : flex;
+    justify-content: space-between;
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.footer {
+    display: flex;
+    justify-content: flex-end;
+}
