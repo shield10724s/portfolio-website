@@ -1,14 +1,16 @@
 h1 {
     text-align: center !important;
-    color: rgb(0, 0, 255);
-}
-* {
-     border: solid 2px brown;
+    color: rgba(4, 0, 255, 0.836);
+    font-family: cursive;
+    font-style: inherit;
+    font-size: 45px;
+    margin-left: 27%;
 }
 .header {
     background-color: burlywood;
     display : flex;
     justify-content: space-between;
+    border: solid 2px brown;
 }
 .grid {
     display: flex;
@@ -18,4 +20,43 @@ h1 {
 .footer {
     display: flex;
     justify-content: flex-end;
+}
+body {
+    background-color: rgb(169, 255, 208);
+}
+.item img{
+    border: solid 2px brown;
+    border-radius: 50px;
+}
+.menu a {
+    margin-right: 20px;
+    font-size: 20px;
+}
+a:link {
+    color: red;
+}
+a:visited {
+    color: rgb(25, 82, 158);
+}
+.item {
+    position: relative;
+}
+.item p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    font-size: 20px;
+    color: rgb(65, 6, 25);
+    font-weight: bold;
+}
+.item:hover p {
+    opacity: 1;
+}
+.item:hover img {
+    opacity: 0.333333333;
+}
+.footer a{
+    margin: 20px;
 }
